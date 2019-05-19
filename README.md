@@ -1,0 +1,51 @@
+
+# ShiftSwitch -demo
+
+#### 注意
+こちらのリポジトリは実際に使用しているシステムのコピーのリポジトリのため、
+~/ShiftSwitch/settings.pyを除外しています。クローンしてそのまま使用することはできません。
+
+#### 使用用途
+
+アルバイトのシフト交換・管理をサポートするツールです。
+
+#### 使用環境
+
+Python 3.7.2
+
+Django 2.2
+
+pipenv
+
+
+
+#### セットアップ
+
+```shell
+$ git clone https://github.com/IidaTakuma/ShiftSwitch.git
+$ cd ShiftSwitch
+$ pipenv install
+$ pipenv install django-widgets-improved
+$ pipenv shell
+$ python manage.py makemigrations
+$ python manage.py migrate
+```
+
+
+
+#### 実行
+
+```shell
+$ python manage.py runserver
+```
+
+#### ユーザー作成(管理者)
+
+```shell
+$ python manage.py createsuperuser
+```
+
+
+
+
+
